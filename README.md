@@ -6,5 +6,4 @@ Metric BMI Formula:
 BMI = weight (kg) / [height (m)]2
 
 Imperial BMI Formula:
-
 BMI = 703 × weight (lbs) / [height (in)]2
