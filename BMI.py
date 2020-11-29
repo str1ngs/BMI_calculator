@@ -9,7 +9,7 @@ if measurement_system == 'Imperial':
 
     def bmi_imperial(weight_lbs, height_in):
         bmi_imperial_value = int(703 * weight_lbs / (height_in ** 2))
-        print('Your BMI is: {0}:' .format(bmi_imperial_value), end='')
+        print('Your BMI score is: {0}' .format(bmi_imperial_value), end='')
         if 15 > bmi_imperial_value:
             print(', which is severely underweight.')
         elif 15 < bmi_imperial_value < 18.5:
@@ -32,7 +32,7 @@ elif measurement_system == 'Metric':
 
     def bmi_metric(weight_kg, height_m):
         bmi_metric_value = int(weight_kg / (height_m ** 2))
-        print('Your BMI is: {0} ' .format(bmi_metric_value), end='')
+        print('Your BMI score is: {0} ' .format(bmi_metric_value), end='')
         if 15 > bmi_metric_value:
             print(', which is severely underweight.')
         elif 15 < bmi_metric_value < 18.5:
